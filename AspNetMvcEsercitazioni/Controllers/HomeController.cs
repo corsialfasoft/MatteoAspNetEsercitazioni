@@ -21,5 +21,10 @@ namespace AspNetMvcEsercitazioni.Controllers {
 
 			return View();
 		}
+		public ActionResult Maybe() {
+			ViewBag.Message = "Adesso potrebbe funzionare...";
+
+			return View();
+		}
 	}
 }
